@@ -11,7 +11,7 @@ import React from 'react'
 
 function RulesHooks() {
    
-    const  [myName, setMyName] = useState('sukanya');
+    const  [myName, setMyName] = React.useState('sukanya');
     
   return (
     <div>

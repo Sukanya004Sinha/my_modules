@@ -21,7 +21,7 @@ const UseStateArray = () => {
     <>
     {
      myArray.map((currElm) => {
-        return  <h1 className ='h1style'>Name: {currElm.myName} & Age: 
+        return  <h1 className ='h1 style'>Name: {currElm.myName} & Age: 
         {currElm.age} </h1>
      
      })

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import RulesHooks from './component/rulesHooks';
 import UseStateArray from './component/UseStateArray';
+import UseStateObject from './component/UseStateObject';
 const App = () => {
 //   var val = 'sparm';
 //   //console.log(useState('sukku'));
@@ -37,8 +38,9 @@ const App = () => {
 //}
 return (
   <div>
-  <RulesHooks />
-  <UseStateArray />
+{/*<RulesHooks />*/ }
+  {/* <UseStateArray /> */}
+  <UseStateObject />
   </div>
 )
 }

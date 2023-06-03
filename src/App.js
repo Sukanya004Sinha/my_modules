@@ -3,6 +3,7 @@ import RulesHooks from './component/rulesHooks';
 import UseStateArray from './component/UseStateArray';
 import UseStateArray1 from './component/UseStateArray1';
 import UseStateObject from './component/UseStateObject';
+import ShortCircuitEval from './component/ShortCircuitEval';
 const App = () => {
 //   var val = 'sparm';
 //   //console.log(useState('sukku'));
@@ -42,7 +43,8 @@ return (
 {/*<RulesHooks />*/ }
    {/*<UseStateArray /> */}
   {/*<UseStateObject /> */}
-  <UseStateArray1 />
+  {/*<UseStateArray1 /> */}
+  <ShortCircuitEval />
   </div>
 )
 }

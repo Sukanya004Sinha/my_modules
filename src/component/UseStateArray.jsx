@@ -4,6 +4,7 @@ const UseStateArray = () => {
     const bioData = [
         {
             id: 0, myName : "sukanya", age: 24
+            
         }, {
             id: 1, myName: "sinha", age : 24
         },
@@ -13,20 +14,23 @@ const UseStateArray = () => {
 
     ]
     console.log(bioData);
-    const [myArray,setmyArray] = useState (bioData);
+    const [myArray,setMyArray] = useState (bioData);
     const clearArray = () =>{
-        bioData =[] 
+       // bioData =[] ;
+       setMyArray([]);
     }
   return (
     <>
     {
-     myArray.map((currElm) => {
-        return  <h1 className ='h1 style'>Name: {currElm.myName} & Age: 
-        {currElm.age} </h1>
+      //  bioData.map((currElem)=> <h1 className="h1style">Name:{currElem}</h1>)
+     myArray.map((currElm) => 
+         <h1 className ='h1style' key= {currElm.id}> Name: {currElm.myName}
+        & Age: {currElm.age} </h1>
      
-     })
+     )
     }
-
+    <button className="btn" onClick = {clearArray}>Clear</button>
+    
 </>
   )
 

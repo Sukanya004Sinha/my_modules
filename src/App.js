@@ -4,6 +4,7 @@ import UseStateArray from './component/UseStateArray';
 import UseStateArray1 from './component/UseStateArray1';
 import UseStateObject from './component/UseStateObject';
 import ShortCircuitEval from './component/ShortCircuitEval';
+import BasicForms from './component/forms/BasicForms';
 const App = () => {
 //   var val = 'sparm';
 //   //console.log(useState('sukku'));
@@ -44,7 +45,8 @@ return (
    {/*<UseStateArray /> */}
   {/*<UseStateObject /> */}
   {/*<UseStateArray1 /> */}
-  <ShortCircuitEval />
+  {/*<ShortCircuitEval /> */}
+  <BasicForms />
   </div>
 )
 }
